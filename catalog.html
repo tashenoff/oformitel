@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        secondary: '#A97BFF',
+                        primary: '#4A0094',
+                        rose: '#FA08FD',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="p-3 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="flex justify-between">
+                <div class="div">
+                    <form action="">
+                        <span>Валюта</span>
+                        <select name="" id="">
+                            <span>KZT</span>
+                            <span>1</span>
+                        </select>
+                    </form>
+                </div>
+                <ul class="flex">
+                    <li class="flex px-5">
+                        <img class="pr-2" src="the_home.svg" alt="">
+                        <a href="">Главная</a>
+                    </li>
+
+                    <li class="flex px-5">
+                        <img class="pr-2" src="the_shop.svg" alt="">
+                        <a href="">О магазине</a>
+                    </li>
+
+                    <li class="flex px-5">
+                        <img class="pr-2" src="pay.svg" alt="">
+                        <a href="">Оформление заказа</a>
+                    </li>
+
+                    <li class="flex px-5">
+                        <img class="pr-2" src="shiping.svg" alt="">
+                        <a href="">Доставка</a>
+                    </li>
+
+                    <li class="flex px-5">
+                        <img class="pr-2" src="location.svg" alt="">
+                        <a href="">Контакты</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="navbar text-white bg-secondary p-5">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-12">
+
+                <div class="logos col-span-2"><img src="logo.png" alt=""></div>
+                <div class="flex col-span-5 flex items-center w-full">
+                    <img class="pr-2" src="humburgers.svg" alt="">
+                    <span class="pr-5">каталог товаров</span>
+                    <form class="flex" action="">
+                        <input class="p-2 rounded-l-full w-80" type="text">
+                        <img class="bg-white  text-primary rounded-r-full px-5" src="searchs.svg" alt="">
+                    </form>
+                </div>
+                <ul class="flex col-span-4 ">
+                    <li class="flex items-center px-5">
+                        <img class="pr-2" src="logins.svg" alt="">
+                        <a class="" href="">Войти</a>
+                    </li>
+                    <li class="flex items-center px-5">
+                        <img class="pr-2" src="cards.svg" alt="">
+                        <a class="" href="">Заказы</a>
+                    </li>
+                    <li class="flex items-center px-5">
+                        <img class="pr-2" src="hearth.svg" alt="">
+                        <a class="" href="">Избранное</a>
+                    </li>
+                </ul>
+                <div class="col-span-1 flex justify-self-end items-center">
+                    <img class="pr-2" src="the_card.svg" alt="">
+                    <span> Корзина</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mx-auto">
+        <div class="flex py-5 w-full justify-between items-center">
+
+            <div class="div">
+                <img src="" alt="">
+                <span class="text-[30px] font-bold">Оформительские без рисунка Товаров</span>
+            </div>
+            <div class="flex">
+                <img src="grid1.svg" alt="">
+                <img src="gird2.svg" alt="">
+            </div>
+
+
+
+        </div>
+
+
+        <div class="flex py-5 w-full justify-between items-center">
+            <form action="">
+                <span>По названию товара</span>
+                <select name="" id="">
+                    KZT
+                    1
+                </select>
+            </form>
+
+            <span>Showing 1-20 of 10929</span>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container mx-auto">
+        <div class="flex items-start my-10">
+            <div class="w-1/5">
+                <div class="shadow-lg mr-5 p-5">
+                    <span class="font-bold">Цена</span>
+                    <ul>
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>50</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>100-200</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>200-300</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>300-400</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>400-500</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>>500</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+
+                        <li class="my-3">
+
+                            <input type="checkbox" name="" id="">
+                            <span>Price interval</span>
+
+                        </li>
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="shadow-lg mr-5 p-5">
+                    <span class="font-bold">Цвета</span>
+                    <div class="grid grid-cols-5 gap-3 mt-5">
+                        <div class="bg-black h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-red-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-green-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-blue-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-orange-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-yellow-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-purple-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-Emerald-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-Rose-500 h-[36px] w-[36px] rounded-lg"></div>
+                        <div class="bg-Lime-500 h-[36px] w-[36px] rounded-lg"></div>
+                    </div>
+                </div>
+
+
+                <div class="shadow-lg mr-5 p-5">
+                    <span class="font-bold">Бренд</span>
+                    <ul>
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>Apple</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>Samsung</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+    
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>LG</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>Huawei</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>Lenovo</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+                        <li class="my-3">
+                            
+                            <input type="checkbox" name="" id="">
+                            <span>Nokia</span>
+                            <span class="text-gray-400">(30)</span>
+                        </li>
+    
+                        
+                        
+                        
+    
+                        
+                    </ul>
+                   </div>
+
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="p-5 border border-gray-200 flex flex-col">
+                    <img src="spanch.png" alt="">
+                    <span class="font-bold py-2">ФИГУРА СПАНЧ БОБ ANAGRAM (США)</span>
+                    <span>В наличии</span>
+                    <p class="flex w-full justify-between border border-gray-200 rounded-full p-2 my-5">
+                        <span class="px-5">-</span>
+                        <input class="text-center" placeholder="1" type="number">
+                        <span class="px-5">+</span>
+                    </p>
+                    <button class="px-5 py-2 bg-secondary w-full text-white rounded-lg">Заказать</button>
+                </div>
+
+                <div class="p-5 border border-gray-200 flex flex-col">
+                    <img src="spanch.png" alt="">
+                    <span class="font-bold py-2">ФИГУРА СПАНЧ БОБ ANAGRAM (США)</span>
+                    <span>В наличии</span>
+                    <p class="flex w-full justify-between border border-gray-200 rounded-full p-2 my-5">
+                        <span class="px-5">-</span>
+                        <input class="text-center" placeholder="1" type="number">
+                        <span class="px-5">+</span>
+                    </p>
+                    <button class="px-5 py-2 bg-secondary w-full text-white rounded-lg">Заказать</button>
+                </div>
+
+                <div class="p-5 border border-gray-200 flex flex-col">
+                    <img src="spanch.png" alt="">
+                    <span class="font-bold py-2">ФИГУРА СПАНЧ БОБ ANAGRAM (США)</span>
+                    <span>В наличии</span>
+                    <p class="flex w-full justify-between border border-gray-200 rounded-full p-2 my-5">
+                        <span class="px-5">-</span>
+                        <input class="text-center" placeholder="1" type="number">
+                        <span class="px-5">+</span>
+                    </p>
+                    <button class="px-5 py-2 bg-secondary w-full text-white rounded-lg">Заказать</button>
+                </div>
+
+                <div class="p-5 border border-gray-200 flex flex-col">
+                    <img src="spanch.png" alt="">
+                    <span class="font-bold py-2">ФИГУРА СПАНЧ БОБ ANAGRAM (США)</span>
+                    <span>В наличии</span>
+                    <p class="flex w-full justify-between border border-gray-200 rounded-full p-2 my-5">
+                        <span class="px-5">-</span>
+                        <input class="text-center" placeholder="1" type="number">
+                        <span class="px-5">+</span>
+                    </p>
+                    <button class="px-5 py-2 bg-secondary w-full text-white rounded-lg">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+<footer class="bg-primary text-white">
+
+    <div class="container mx-auto">
+        <div class="grid grid-cols-12 py-5">
+            <div class="col-span-3">
+
+                <img src="logo.png" alt="">
+
+                <ul class="mt-7 leading-loose">
+                    <li class="flex flex-col">
+                        <span class="font-bold">Headquarters</span>
+                        <a href="">Presei Square No45, Bucharest - 099455</a>
+                    </li>
+                    <li class="flex flex-col">
+                        <span class="font-bold">Email</span>
+                        <a href="">contact@shoperz.com</a>
+                    </li>
+
+                    <li class="flex flex-col">
+                        <span class="font-bold">Telephone</span>
+                        <a href="">(+40) 987 123 654</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-span-3">
+                <span class="font-bold">Headquarters</span>
+                <ul class="leading-loose">
+                    <li>
+                        <a href="">TV & Audio</a>
+                    </li>
+                    <li>
+                        <a href="">Smartphones</a>
+                    </li>
+                    <li>
+                        <a href="">Laptops & PCs</a>
+                    </li>
+                    <li>
+                        <a href="">Gadgets</a>
+                    </li>
+                    <li>
+                        <a href="">Photo & Video</a>
+                    </li>
+                    <li>
+                        <a href="">Gifts</a>
+                    </li>
+                    <li>
+                        <a href="">Books</a>
+                    </li>
+                    <li>
+                        <a href="">Toys</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-span-3">
+                <span class="font-bold">Headquarters</span>
+                <ul class="leading-loose">
+                    <li>
+                        <a href="">TV & Audio</a>
+                    </li>
+                    <li>
+                        <a href="">Smartphones</a>
+                    </li>
+                    <li>
+                        <a href="">Laptops & PCs</a>
+                    </li>
+                    <li>
+                        <a href="">Gadgets</a>
+                    </li>
+                    <li>
+                        <a href="">Photo & Video</a>
+                    </li>
+                    <li>
+                        <a href="">Gifts</a>
+                    </li>
+                    <li>
+                        <a href="">Books</a>
+                    </li>
+                    <li>
+                        <a href="">Toys</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col-span-3">
+                <span class="font-bold">Headquarters</span>
+                <ul class="leading-loose">
+                    <li>
+                        <a href="">TV & Audio</a>
+                    </li>
+                    <li>
+                        <a href="">Smartphones</a>
+                    </li>
+                    <li>
+                        <a href="">Laptops & PCs</a>
+                    </li>
+                    <li>
+                        <a href="">Gadgets</a>
+                    </li>
+                    <li>
+                        <a href="">Photo & Video</a>
+                    </li>
+                    <li>
+                        <a href="">Gifts</a>
+                    </li>
+                    <li>
+                        <a href="">Books</a>
+                    </li>
+                    <li>
+                        <a href="">Toys</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="w-full  border-t border-white border-opacity-25 mt-5">
+        <div class="container mx-auto">
+            <div class="py-10 grid grid-cols-2">
+                <div>SHAR-LAND © 2017. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</div>
+                <div class="flex items-end justify-end w-full">
+                    <img src="f.svg" alt="">
+                    <img src="inst.svg" alt="">
+                    <img src="in.svg" alt="">
+                    <img src="twit.svg" alt="">
+                    <img src="you.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</html>
